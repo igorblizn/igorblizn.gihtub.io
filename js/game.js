@@ -13,7 +13,7 @@ var winnerCondition = [
 ];
 //Squares Html variable
 var squareHtml  = '<div className="board-row">';
-var xIsNext = true;
+var xIsNext = false;
 var winner  = false;
 // Render squares
 for(let i=0; i<squares.length;i++){
