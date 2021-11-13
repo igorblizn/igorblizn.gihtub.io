@@ -43,7 +43,7 @@ function handleClick(index){
   if(winner || squares[index]){
     return ;
   }
-  squares[index] = xIsNext ? 'X' : 'O';
+  squares[index] = xIsNext ? ')' : 'O';
   const sqs = squares.slice();
   var elementId = "sq_"+index;
   document.getElementById(elementId).innerHTML = xIsNext ? 'X' : 'O';
